@@ -26,13 +26,13 @@
   background: #FFFFFF;
   border: none;
   border-radius: 5px;
-  border: 2px solid #333;
+  border: 2px solid transparent;
   margin-right: 21px;
   padding: 15px 147px 15px 22px;
   
   &:focus{
+    border: 3px solid #FFBD54;
     border-radius: 5px;
-    border: 2px solid #FFBD54;
   }
 }
 

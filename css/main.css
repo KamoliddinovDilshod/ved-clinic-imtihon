@@ -1171,14 +1171,14 @@ body {
   background: #FFFFFF;
   border: none;
   border-radius: 5px;
-  border: 2px solid #333;
+  border: 2px solid transparent;
   margin-right: 21px;
   padding: 15px 147px 15px 22px;
 }
 
 .news__input:focus {
+  border: 3px solid #FFBD54;
   border-radius: 5px;
-  border: 2px solid #FFBD54;
 }
 
 .news__buuton {
@@ -1349,6 +1349,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   vertical-align: middle;
+}
+
+.article__links {
+  text-decoration: none;
 }
 
 .article__links:nth-child(2) {
