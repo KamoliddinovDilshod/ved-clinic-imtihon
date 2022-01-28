@@ -1,0 +1,60 @@
+.news{
+  background-image: url("../../images/dogsgrpoup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news__box{
+  display: block;
+  margin-left: 135px;
+  padding: 210px 0;
+}
+
+.news__title{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.news__input{
+  vertical-align: middle;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #333;
+  margin-right: 21px;
+  padding: 15px 147px 15px 22px;
+  
+  &:focus{
+    border-radius: 5px;
+    border: 2px solid #FFBD54;
+  }
+}
+
+.news__buuton{
+  background-color: #333333;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 15px 52px;
+  
+  &:hover{
+    color: #333;
+    background-color: #FFBD54;
+    border-radius: 3px;
+  }
+  
+  &:active{
+    color: #333;
+    background-color: #FFBD54;
+    border-radius: 3px;
+    opacity: 0.6;
+  }
+  
+}

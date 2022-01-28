@@ -1,0 +1,72 @@
+.hero{
+  background-image: url("../../images/dogs.jpg") , url("../../images/pets.jpg");
+  background-repeat: no-repeat;
+  background-position: 109% 100% , -35% -100px;
+  padding-top: 153px;
+  padding-bottom: 311px;
+}
+
+.hero__box{
+  display: block;
+  margin-left: 713px;
+}
+
+.hero__title-box{
+  width: 608px;
+  margin-bottom: 29px;
+}
+
+.hero__title{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+  margin: 0;
+}
+
+.hero__span{
+  color: #87ceeb;
+}
+
+.hero__text-box{
+  width: 495px;
+  margin-bottom: 39px;
+}
+
+.hero__text{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin: 0;
+}
+
+.hero__link{
+  display: inline-block;
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333;
+  border-radius: 3px;
+  padding: 15px 47px;
+  text-decoration: none;
+
+  &:hover{
+    color: #333;
+    background-color: #FFBD54;
+  }
+
+  &:active{
+    background-color: #FFBD54;
+    color: #333;
+    opacity: 0.5;
+  }
+
+}

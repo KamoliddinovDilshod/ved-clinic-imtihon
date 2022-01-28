@@ -1,0 +1,130 @@
+.header-top__box{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: flex-end;
+  margin-left: 2px;
+  padding: 13px 0;
+}
+
+.header-top__address{
+  position: relative;
+  font-family: "Futura" , "Verdana", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-right: 80px;
+
+  &::before{
+    position: absolute;
+    left: -24px;
+    content:"";
+    width: 14px;
+    height: 13px;
+    background-image: url("../../images/house.svg");
+  }
+  
+}
+
+.header-top__telephone-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &::before{
+    position: absolute;
+    left: -20px;
+    content: "";
+    background-image: url("../../images/phone.svg");
+    width: 13px;
+    height: 13px;}
+}
+
+.header-top__link{
+  font-family: "Futura" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-right: 22px;
+  text-decoration: none;
+
+  &:hover{
+    color: #FFBD54;
+  }
+
+  &:active{
+    color: #333333;
+    opacity: 0.6;
+  }
+}
+
+
+.header-top__link:nth-child(2)::after{
+  position: absolute;
+  left: 150px;
+  top: 7px;
+  content: "";
+  background-image: url("../../images/Ellipse.svg");
+  width: 4px;
+  height: 4px;
+}
+
+.header-top__link:nth-child(3)::after{
+  position: absolute;
+  left: 315px;
+  top: 7px;
+  content: "";
+  background-image: url("../../images/Ellipse.svg");
+  width: 4px;
+  height: 4px;
+}
+
+.header-top__link:nth-child(3){
+  margin-right: 80px;
+}
+
+.header-top__time-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+
+  &::before{
+    position: absolute;
+    left: -22px;
+    top: 3px;
+    content: "";
+    background-image: url("../../images/Vector.svg");
+    width: 14px;
+    height: 14px;
+  }
+
+}
+
+.header-top__time-title{
+  font-family: "Futura" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin: 0;
+  margin-right: 17px;
+}
+
+
+.header-top__time:nth-child(1){
+  margin-left: 5px;
+}
+
+.header-top__time-title:nth-child(2){
+  margin-left: 0;
+}

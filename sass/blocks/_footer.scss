@@ -1,0 +1,149 @@
+footer{
+  padding-top: 61px;
+  padding-bottom: 65px;
+}
+
+.footer__box{
+  display: flex;
+}
+
+.footer__logo{
+  margin-right: 67px;
+}
+
+.footer__link{
+  &:hover{
+    opacity: 0.7;
+  }
+
+  &:active{
+    opacity: 0.5;
+  }
+}
+
+.footer__list{
+  display: block;
+  margin: 0;
+  margin-right: 87px;
+  padding: 0;
+}
+
+.footer__list:nth-child(1){
+  margin-right: 0;
+}
+
+.footer__item{
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+
+.footer__text{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+  
+  &:hover{
+    color: #FFBD54;
+  }
+  
+  &:active{
+    color: #333;
+    opacity: 0.7;
+  }
+}
+
+.footer__time-box{
+  position: relative;
+  margin-right: 125px;
+}
+
+.footer__time{
+  margin-left: 3px;
+}
+
+.footer__time-title{
+  font-family: "Futura" , "Verdana" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin: 0;
+  margin-bottom: 3px;
+  
+  &::before{
+    position: absolute;
+    left: -25px;
+    top: 3px;
+    content: "";
+    background-image: url("../../images/Vector.svg");
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.footer__address-box{
+  width: 175px;
+  margin-right: 68px;
+}
+
+.footer__address{
+  position: relative;
+  font-family: "Futura" , "Verdana", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  
+  &::before{
+    position: absolute;
+    top: 4px;
+    left: -24px;
+    content:"";
+    width: 14px;
+    height: 13px;
+    background-image: url("../../images/house.svg");
+  }
+}
+
+.footer__telephone-box{
+  position: relative;
+  
+  &::before{
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    content: "";
+    background-image: url("../../images/phone.svg");
+    width: 13px;
+    height: 13px;}
+  }
+  
+  .footer__link{
+    display: block;
+    font-family: "Futura" , "Verdana" , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    text-decoration: none;
+    
+    &:hover{
+      color: #FFBD54;
+    }
+    
+    &:active{
+      color: #333333;
+      opacity: 0.6;
+    }
+  }

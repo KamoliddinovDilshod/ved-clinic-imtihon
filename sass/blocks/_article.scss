@@ -1,0 +1,148 @@
+.article{
+  padding: 151px 0 265px 0;
+}
+
+.article__title{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.article__box{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.article__boxs{
+  width: 305px;
+  height: 435px;
+  background-color: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+
+.article__boxs:nth-child(2){
+  width: 640px;
+  margin: 0 24px;
+}
+
+.article__box-full{
+  display: flex;
+  align-items: flex-start;
+}
+
+.article__img{
+  border-radius:5px 5px 0px 0px;
+}
+
+.article__packet{
+  padding: 21px 22px 15px 32px;
+}
+
+.article__time{
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  margin-bottom: 2px;
+}
+
+.article__subbox{
+  width: 184px;
+  margin-bottom: 10px;
+}
+
+.article__subtitle{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin: 0;
+}
+
+.article__text-box{
+  width: 244px;
+  margin-bottom: 25px;
+}
+
+.article__text{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+}
+
+.article__link{
+  position: relative;
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333;
+  text-decoration: none;
+  margin-left: 24px;
+  
+  &:before{
+    position: absolute;
+    top: -3px;
+    left: -32px;
+    content: "";
+    background-image: url("../../images/pet.svg");
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 21px;
+  }
+
+  &:hover{
+    color: #FFBD54;
+  }
+
+  &:active{
+    color: #333;
+    opacity: 0.6;
+  }
+}
+
+.article__text-packet{
+  padding: 25px 35px 17px 31px;
+}
+
+.article__subpacket{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.article__links:nth-child(2){
+  margin: 0 7px;
+}
+
+.article__links:nth-child(3){
+  margin-right: 15px;
+}
+
+.article__packets{
+  margin-top: 32px;
+  margin-bottom: 15px;
+}
+
+.article__trunk{
+  margin-bottom: 23px;
+}

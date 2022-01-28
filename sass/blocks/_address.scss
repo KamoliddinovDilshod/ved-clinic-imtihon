@@ -1,0 +1,89 @@
+.address{
+  background-image: url("../../images/fish.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 247px;
+}
+
+.address__box{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.address__map{
+  border-radius: 3px;
+}
+
+.address__packet{
+  margin-left: 160px;
+  padding: 62px 0 74px 0;
+}
+
+.address__title{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.address__text-box{
+  width: 344px;
+  margin-bottom: 24px;
+}
+
+.address__text{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+}
+
+.address__name{
+  display: block;
+  margin-bottom: 14px;
+  padding: 16px 285px 13px 22px;
+}
+
+.address__email{
+  display: block;
+  margin-bottom: 14px;
+  padding: 16px 285px 13px 22px;
+}
+
+.address__idea{
+  resize: vertical;
+  margin-bottom: 30px;
+  padding: 17px 237px 127px 22px;
+}
+
+.address__button{
+  display:block;
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  cursor: pointer;
+  background: #FFBD54;
+  padding: 15px 50px;
+
+  &:hover{
+    background-color: #333;
+    color: #FFBD54;
+  }
+
+  &:active{
+    color: #FFBD54;
+    background-color: #333;
+    opacity: 0.6;
+  }
+}

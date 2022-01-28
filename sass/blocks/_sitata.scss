@@ -1,0 +1,84 @@
+.sitata{
+  padding-top: 31px;
+  padding-bottom: 191px;
+}
+
+.sitata__box{
+  position: relative;
+  width: 753px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  
+  &::before{
+    position: absolute;
+    top: -50px;
+    left: -150px;
+    content: "“";
+    font-family: "Gaegu" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 250px;
+    color: #DBDBDB;
+  }
+  
+  &::after{
+    position: absolute;
+    top: -70px;
+    right: -150px;
+    content: "“";
+    font-family: "Gaegu" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 250px;
+    color: #DBDBDB;
+    transform: rotate(-180deg);
+  }
+  
+  
+}
+
+.sitata__text{
+  position: relative;
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+  
+  &::before{
+    display: block;
+    position: absolute;
+    top:  -30px;
+    right: 260px;
+    width: 140px;
+    height: 1px;
+    content: "";
+    border: 1px solid #DBDBDB;
+  }
+  
+  &::after{
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: 260px;
+    width: 140px;
+    height: 1px;
+    content: "";
+    border: 1px solid #DBDBDB;
+  }
+}
+
+.sitata__subtext{
+  font-family: "Futura" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
